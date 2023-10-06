@@ -1,0 +1,210 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+* {
+  box-sizing: border-box;
+  line-height: 18px;
+  color: black
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;    
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #444444;
+
+}
+
+form {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+.searchform input[type="text"], .form-record input[type="text"] {
+  min-width: 40ex;
+  text-align: left;
+  border: 1px solid #CCCCCC;
+  background-color: #DDDDDD;
+}
+
+.searchform input[type="text"], .form-record-value input[type="text"] {
+  min-width: 40ex;
+  text-align: left;
+  border: 1px solid #CCCCCC;
+  background-color: #DDDDDD;
+}
+
+.form-record, .form-record-value {
+    background-color: #0000000F;
+    display: inline-block;
+}
+
+.form-record {
+    min-width: 40ex;
+    padding: 5px 12px;
+}
+
+
+.form-record-value {
+  min-width: 50%;
+  max-width: 50%;
+}
+
+
+.custom input[type="text"] {
+  text-align: left;
+  border: 1px solid #CCCCCC;
+  background-color: lightgrey;
+  border: 0;
+}
+
+
+#magicsuggest {
+	width: 100%;
+    background-color: #00000011;
+}
+
+.body-container {
+  margin: auto;
+  margin-top: 1em;
+  width: 100%;
+}
+
+.searchform input[type="text"] {
+	background-color: white;
+}
+
+.search-container  {
+  display: grid;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
+  text-align: center;    
+}
+
+.recordname {
+  display: block;
+  border: 1em solid transparent;
+  float: left;
+}
+
+input.recordname {
+  margin-right: 1em;
+  background-color: #0000000F;
+
+}
+
+.ms-sel-ctn {
+	border: 1px solid #888;
+}
+
+.recordvalue {
+  display: block;
+  border: 1em solid transparent;
+  float: left;
+  max-width: 40%;
+}
+
+.submit {
+  display: block;
+  border: 1em solid transparent;
+  float: left;
+  border: 1px solid #888;
+  background-color: transparent;
+
+}
+
+.output {
+  font-size: 1.2em;
+  padding: 1em;
+  text-align: center;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 0 0 1ex 0;
+  background-color: #DFDFDFDF;
+}
+
+.AddCategory, .CategoryTable {
+  display: inline-table;
+  background-color: transparent;
+  width: 100%;
+  border: 1em solid transparent;
+}
+
+.downloadxml {
+  display: inline-table;
+  background-color: transparent;
+  width: 100%;
+  border: 1em solid transparent;
+  float: right;
+}
+
+
+.category_list {
+  display: inline-table;
+  background-color: transparent;
+  width: 100%;
+  border: 1em solid transparent;
+}
+
+.record {
+  display: inline-table;
+  background-color: #00000022;
+  width: 100%;
+}
+.addrecord  {
+  display: inline-table;
+  background-color: #00000022;
+  width: 100%;
+}
+
+.form-record input {
+  float: left;
+}
+
+.form-record  {
+  float: left;
+}
+
+.ms-sel-item .ms-sel-text  {
+  width: 0px;
+  display: block;
+  float: left;
+  width: 100%;
+  border: 1em solid transparent;
+}
+
+.ms-ctn .ms-trigger {
+	top: 0;
+	width: 34px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+}
+ 
+.CategoryName {
+  color:#000000;
+  font-weight: 500;
+}
+
+.Description {
+  color:#444444;
+  font-style: italic;
+}
+
+.ms-res-item {
+  border-bottom: #000000;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+.list_website {
+  width: 788px; 
+  height: 61px;
+}
