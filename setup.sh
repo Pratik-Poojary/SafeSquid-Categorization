@@ -216,7 +216,7 @@ _EOF
 
 SETUP_WEB()
 {
-	[ ! -f "${BASEDIR}/html.tar.gz" ] && echo "not found: ${BASEDIR}/html.tar.gz" && return;
+	[ ! -f "${BASEDIR}/html" ] && echo "not found: ${BASEDIR}/html" && return;
 	[ "x${WEB_DIR}" == "x" ] && echo "undefined: WEB_DIR" && return;
 	[ ! -d "${WEB_DIR}" ] && mkdir -p "${WEB_DIR}"
 	[ ! -d "${WEB_LOG_DIR}" ] && mkdir -p "${WEB_LOG_DIR}"
